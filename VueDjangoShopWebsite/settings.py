@@ -168,16 +168,16 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
 # 语言改为中文
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'en'
 
 # 时区改为上海
-TIME_ZONE = 'Asia/Shanghai'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 # 设置使用自定义的认证后端进行用户认证
 AUTHENTICATION_BACKENDS = (
